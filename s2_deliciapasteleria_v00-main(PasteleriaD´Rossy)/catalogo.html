@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto · Portafolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tus estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- NAVBAR (contacto activo) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="productos.html">catalogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">carrito</a></li>
+          <li class="nav-item"><a class="nav-link" href="pedidos.html">nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO -->
+ <main class="container py-5" style="max-width:720px;">
+  <h1 class="mb-4">Contacto</h1>
+
+  <div class="alert alert-light border mb-4">
+    <ul class="list-unstyled mb-0">
+      <li><strong>Email:</strong> <a href="mailto:guilledu.pg@strategymge.com">ErickHO.pg@strategymge.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/guillermopenagarcia/" target="_blank">/in/ErickHuayllaniOtarola</a></li>
+      <li><strong>Portafolio:</strong> <a href="https://guilledupenag.com/" target="_blank">ErickHuayllani.com</a></li>
+      <li><strong>Celular:</strong> (051) 940866498</li>
+    </ul>
+    <small class="text-muted"></small>
+  </div>
+
+  <form class="row gy-3" id="form-contacto">
+    <div class="col-12">
+      <label class="form-label" for="nombre">Nombre</label>
+      <input class="form-control" id="nombre" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="correo">Correo</label>
+      <input type="email" class="form-control" id="correo" required>
+    </div>
+    <div class="col-12">
+      <label class="form-label" for="mensaje">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-success">Enviar</button>
+    </div>
+  </form>
+</main>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center text-white py-3 bg-dark">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Erick. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + tu JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@2.0.0/dist/lottie-player.js"></script>
+  <style>
+    body {
+      transition: background-color 0.5s ease, color 0.5s ease;
+    }
+    .navbar, footer {
+      transition: background-color 0.5s ease;
+    }
+  </style>
+</head>
+<body data-bs-theme="dark">
+
+  <!-- Botón de cambio de modo -->
+  <div class="container text-center mt-5">
+      <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_PwSfgwTmvf.json" background="transparent" speed="1" style="width: 50px; height: 50px;" loop autoplay></lottie-player>
+    </button>
+  </div>
+
+</body>
+</html>
